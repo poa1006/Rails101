@@ -13,7 +13,6 @@ def notice_message
 
      content_tag(:div, alert_content, class: alert_class)
    end
-
    alerts.join("\n").html_safe
  end
 
